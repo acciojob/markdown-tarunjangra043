@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { marked } from "marked";
-import "./App.css";
+import "../styles/App.css";
 
 function App() {
   const [markdown, setMarkdown] = useState("");
